@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Adapter.Activity.BirthdayEntryActivity">
+
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:gravity="center"
+        android:textAlignment="center"
+        app:titleTextColor="#fff"
+        app:title="PROFILE"
+        android:background="#BA5D7E"
+        android:id="@+id/profiletoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.cardview.widget.CardView
+        android:layout_below="@id/profiletoolbar"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:theme="@style/CardView.Dark"
+                        app:civ_border_width="4dp"
+                        app:civ_border_color="#BD708B"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="100dp"
+                        android:id="@+id/profileimage"
+                        android:src="@drawable/profile"
+                        android:layout_centerHorizontal="true"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp">
+
+                    </de.hdodenhof.circleimageview.CircleImageView>
+
+
+
+
+                </RelativeLayout>
+
+
+
+
+
+                <TextView
+                    android:textColor="#BC3364"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:text="XIHAD ISLAM"
+                    android:inputType="text"
+                    android:paddingLeft="10dp"
+                    android:id="@+id/nameid"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="15dp"
+                    android:hint="ENTER YOUR NAME"
+                    android:padding="10dp"
+                    android:layout_below="@id/profileimage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:textColor="#BC3364"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:text="STUDENT"
+                    android:inputType="number"
+                    android:id="@+id/numberid"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="15dp"
+                    android:hint="ENTER YOUR PHONE NUMBER"
+                    android:padding="10dp"
+                    android:layout_below="@id/nameid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+                <TextView
+                    android:textColor="#BC3364"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:text="22/08/1997"
+                    android:inputType="date"
+                    android:id="@+id/birthdate"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="15dp"
+                    android:hint="ENTER YOUR BIRTHDATE"
+                    android:padding="10dp"
+                    android:layout_below="@id/numberid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:textColor="#BC3364"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:text="018345647839"
+                    android:inputType="number"
+                    android:id="@+id/age_id"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="10dp"
+                    android:layout_below="@id/birthdate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

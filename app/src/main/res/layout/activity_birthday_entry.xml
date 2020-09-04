@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Adapter.Activity.BirthdayEntryActivity">
+
+
+
+    <androidx.appcompat.widget.Toolbar
+        app:titleTextColor="#fff"
+        app:title="ADD MEMBER"
+        android:background="#BA5D7E"
+        android:id="@+id/profiletoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.cardview.widget.CardView
+        android:layout_below="@id/profiletoolbar"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:theme="@style/CardView.Dark"
+                    app:civ_border_width="4dp"
+                    app:civ_border_color="#BD708B"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="100dp"
+                    android:id="@+id/profileimage"
+                    android:src="@drawable/profile"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp">
+
+                </de.hdodenhof.circleimageview.CircleImageView>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/addimageButton_id"
+                    android:background="#fff"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_below="@id/profileimage"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="-62dp"
+                    android:layout_marginEnd="105dp"
+                    android:src="@drawable/ic_person_add_black_24dp">
+
+                </de.hdodenhof.circleimageview.CircleImageView>
+
+
+            </RelativeLayout>
+            
+            
+
+
+
+    <EditText
+        android:inputType="text"
+        android:drawableLeft="@drawable/ic_person_add_black_24dp"
+        android:paddingLeft="10dp"
+        android:id="@+id/nameid"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:hint="ENTER YOUR NAME"
+        android:padding="10dp"
+        android:layout_below="@id/profileimage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+    <EditText
+        android:inputType="number"
+        android:drawableLeft="@drawable/ic_phone_missed_black_24dp"
+        android:id="@+id/numberid"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:hint="ENTER YOUR PHONE NUMBER"
+        android:padding="10dp"
+        android:layout_below="@id/nameid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+    <EditText
+        android:inputType="date"
+        android:drawableLeft="@drawable/ic_event_note_black_24dp"
+        android:id="@+id/birthdate"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:hint="ENTER YOUR BIRTHDATE"
+        android:padding="10dp"
+        android:layout_below="@id/numberid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+    <EditText
+        android:inputType="number"
+        android:drawableLeft="@drawable/ic_format_list_numbered_black_24dp"
+        android:id="@+id/age_id"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:hint="ENTER YOUR AGE"
+        android:padding="10dp"
+        android:layout_below="@id/birthdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+
+
+
+
+
+
+    <Button
+        android:layout_marginBottom="10dp"
+        android:id="@+id/datasavebutton_id"
+        android:background="@drawable/style"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:text="SAVE"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+
+        </LinearLayout>
+
+        </ScrollView>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

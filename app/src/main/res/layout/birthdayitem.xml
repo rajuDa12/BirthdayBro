@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginTop="2dp"
+    android:padding="5dp"
+    android:layout_height="wrap_content">
+
+
+    <androidx.cardview.widget.CardView
+        app:cardElevation="5dp"
+        android:layout_margin="3dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="5dp"
+        app:cardCornerRadius="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <LinearLayout
+            android:background="@drawable/button"
+
+            android:weightSum="3"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    app:civ_border_color="#C65980"
+                    app:civ_border_width="2dp"
+                    android:id="@+id/imageid"
+                    android:src="@drawable/person"
+                    android:layout_gravity="center"
+                    android:layout_width="80dp"
+                    android:layout_height="70dp">
+
+                </de.hdodenhof.circleimageview.CircleImageView>
+
+
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/getnameid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:padding="5dp"
+                    android:text="NAME"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#DF6E96"
+                    android:textSize="20dp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_marginTop="2dp"
+                    android:textColor="#DF6E96"
+                    android:textSize="12sp"
+                    android:id="@+id/getnumberid"
+                    android:text="TODAY IS BIRTHDAY"
+                    android:padding="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+
+
+                <TextView
+                    android:visibility="gone"
+                    android:layout_marginTop="2dp"
+                    android:textColor="#DF6E96"
+                    android:textSize="12sp"
+                    android:id="@+id/getAgeid"
+                    android:text="TODAY IS BIRTHDAY"
+                    android:padding="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+
+                <TextView
+                    android:visibility="gone"
+                    android:layout_marginTop="2dp"
+                    android:textColor="#DF6E96"
+                    android:textSize="12sp"
+                    android:id="@+id/getgenderid"
+                    android:text="TODAY IS BIRTHDAY"
+                    android:padding="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_marginRight="9dp"
+                    android:layout_marginLeft="30dp"
+                    android:drawableLeft="@drawable/ic_arrow_forward_black_24dp"
+                    android:layout_gravity="center"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp">
+
+                </TextView>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

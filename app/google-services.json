@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "240441873067",
+    "firebase_url": "https://ttodo-20364.firebaseio.com",
+    "project_id": "ttodo-20364",
+    "storage_bucket": "ttodo-20364.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240441873067:android:8ae88e4fd53bb5debc1dee",
+        "android_client_info": {
+          "package_name": "com.teamokcodex.ttodo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "240441873067-hm95dqrp1ka0o868djlucoqt0h6lb42o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNvdOEAbufzw5jPL3IpV587zLmJcwQEN0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "240441873067-hm95dqrp1ka0o868djlucoqt0h6lb42o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

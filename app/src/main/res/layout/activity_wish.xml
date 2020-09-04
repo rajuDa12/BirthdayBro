@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linearwishid"
+    tools:context=".Adapter.Activity.WishActivity">
+
+
+
+
+    <androidx.appcompat.widget.Toolbar
+        app:title="WISH"
+        android:textAlignment="center"
+        app:titleTextColor="#fff"
+        android:background="#CF4475"
+        android:id="@+id/profiletoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:background="#A160AC"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image"
+                android:layout_marginTop="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/person"
+                app:civ_border_color="#C33E6D"
+                app:civ_border_width="2dp">
+
+            </de.hdodenhof.circleimageview.CircleImageView>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#CF1557"
+            android:text=""
+            android:inputType="number"
+            android:id="@+id/Name"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:padding="10dp"
+            android:layout_below="@id/birthdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+
+
+        <TextView
+            android:text=" "
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#CF1557"
+            android:inputType="number"
+            android:id="@+id/Phone"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:padding="10dp"
+            android:layout_below="@id/birthdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#CF1557"
+            android:inputType="number"
+            android:id="@+id/Age"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:hint="ENTER YOUR AGE"
+            android:padding="10dp"
+            android:layout_below="@id/birthdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#CF1557"
+            android:inputType="number"
+            android:id="@+id/gender"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:hint="ENTER YOUR AGE"
+            android:padding="10dp"
+            android:layout_below="@id/birthdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+
+
+
+
+
+
+        <Button
+        android:layout_marginBottom="10dp"
+        android:id="@+id/datasavebutton_id"
+        android:background="@drawable/style"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:text="LET'S WISH"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+
+        <TextView
+            android:textColor="#971744"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:text="Or"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <Button
+            android:layout_marginBottom="10dp"
+            android:id="@+id/Cardsavebutton_id"
+            android:background="@drawable/style"
+            android:layout_marginTop="8dp"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:text="SEND A CARD"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>
